@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="css/bootstrap-5.2.0-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body class="bg-dark d-flex">
+   
+    <div class="main w-100">
+      <div class="container">
+        <div class="search d-flex justify-content-between">
+          <input
+            id="searchByName"
+            class="form-control me-3 bg-dark text-white"
+            type="text"
+            placeholder="search by name"
+            aria-label="default input example"
+          />
+          <input
+            id="searchByLetter"
+            class="form-control bg-dark text-white"
+            type="text"
+            placeholder="search by first letter"
+            aria-label="default input example"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="my-data mt-5">
+      <div class="container">
+        <div id="searhData" class="row g-3"></div>
+      </div>
+    </div>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/search.js"></script>
+  </body>
+</html>
